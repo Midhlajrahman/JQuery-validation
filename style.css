@@ -1,14 +1,15 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 .body{
     height: 180vh;
     width: 120vh;
     background-color: white;
     box-shadow: 1px 1px 45px 1px ;
-    position: relative;
-    left: 395px;
+    margin: 0 auto;
 }
 .image{
     height: 700px;
@@ -22,6 +23,3 @@ h3{
     font-weight: 600 !important;
 }
 
-label{
-    font-family: Poppins;
-}
