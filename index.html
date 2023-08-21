@@ -16,21 +16,21 @@
 </head>
 
 <body>
-  <div class="body">
+  <div class="body" id="validation_body">
     <img src="images/Do you have your Plot Ready (7)-min..webp" alt="" class="image img-fluid">
     <h3 class="ms-5">Fill in your details & start constructing your dream home</h3>
     <div class="container">
       <form class="row g-3 ms-3 me-4 mt-4">
         <div class="col-md-6 sm-12">
           <label for="inputEmail4" class="form-label">First Name</label>
-          <input type="text" class="form-control" id="first_name">
+          <input type="text" class="form-control" id="first_name" name="f_name">
           <label id="error1"
             style="display: none; color: red;  font-size: 11px; font-family: Arial, Helvetica, sans-serif;">Please
             complete this required field.</label>
         </div>
         <div class="col-md-6 sm-12">
           <label for="inputPassword4" class="form-label">Last Name</label>
-          <input type="text" class="form-control" id="last_name">
+          <input type="text" class="form-control" id="last_name" name="l_name">
           <label id="error2"
             style="display: none; color: red;  font-size: 11px; font-family: Arial, Helvetica, sans-serif;">Please
             complete this required field.</label>
@@ -38,14 +38,14 @@
 
         <div class="col-md-6 sm-12">
           <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email">
+          <input type="email" class="form-control" id="email" name="e_mail">
           <label id="error3"
             style="display: none; color: red;  font-size: 11px; font-family: Arial, Helvetica, sans-serif;">Please
             complete this required field.</label>
         </div>
         <div class="col-md-6 sm-12">
           <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password">
+          <input type="password" class="form-control" id="password" name="pass">
           <label id="error4"
             style="display: none; color: red;  font-size: 11px; font-family: Arial, Helvetica, sans-serif;">Please
             complete this required field.</label>
@@ -56,7 +56,7 @@
         <div class="col-md-6 sm-12">
           <label for="inputState" class="form-label">Do you have/own a plot?</label>
           <select id="inputState1" class="form-select">
-            <option selected disabled>Please Select</option>
+            <option selected >Please Select</option>
             <option>Yes</option>
             <option>No</option>
           </select>
@@ -68,7 +68,7 @@
         <div class="col-md-6 sm-12">
           <label for="inputState" class="form-label">Where are you planning to build your home?</label>
           <select id="inputState2" class="form-select">
-            <option selected disabled>Please Select</option>
+            <option selected >Please Select</option>
             <option>Kerala</option>
             <option>Thelangana</option>
             <option>karnadaka</option>
@@ -82,7 +82,7 @@
         <div class="col-md-6 sm-12">
           <label for="inputState" class="form-label">When are you planning to start your construction?</label>
           <select id="inputState3" class="form-select">
-            <option selected disabled>Please Select</option>
+            <option selected >Please Select</option>
             <option>Immediately</option>
             <option>In 3 Months</option>
             <option>In 6 Months</option>
@@ -96,7 +96,7 @@
         <div class="col-md-6 sm-12">
           <label for="inputState" class="form-label">Choose your budget range</label>
           <select id="inputState4" class="form-select">
-            <option selected disabled>Please Select</option>
+            <option selected >Please Select</option>
             <option>40-75 Lakhs </option>
             <option>75 Lakhs -1 Crore </option>
             <option>1 Crore & Above</option>

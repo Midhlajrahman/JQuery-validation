@@ -47,18 +47,16 @@
       }
     })
     $("#inputState1").blur(function () {
-      rules: {
-     required:true
-    }
-      // var input1 = $(this).val()
-      // if (input1 === 'Please Select') {
-      //   $(this).css('border-color', 'red')
-      //   $("#error5").show()
-      // }
-      // else {
-      //   $("#error5").hide()
-      //   $(this).css('border-color', 'green')
-      // }
+      
+      var input1 = $(this).val()
+      if (input1 === 'Please Select') {
+        $(this).css('border-color', 'red')
+        $("#error5").show()
+      }
+      else {
+        $("#error5").hide()
+        $(this).css('border-color', 'green')
+      }
     })
     $("#inputState2").blur(function () {
       var input2 = $(this).val()
@@ -144,3 +142,8 @@
       }
     })
   })
+
+
+
+
+
